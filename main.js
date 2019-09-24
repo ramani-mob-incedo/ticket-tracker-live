@@ -580,7 +580,7 @@ var ExampleService = /** @class */ (function () {
         this.http = http;
     }
     ExampleService.prototype.getTickets = function () {
-        return this.http.get("../assets/tickets.json");
+        return this.http.get("../ticket-tracker-live/assets/tickets.json");
     };
     ExampleService.ctorParameters = function () { return [
         { type: _angular_common_http__WEBPACK_IMPORTED_MODULE_2__["HttpClient"] }
